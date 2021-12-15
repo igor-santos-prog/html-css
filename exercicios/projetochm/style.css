@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Russo+One&display=swap');
+
+
+
+:root {
+    --cor0: #e2e2e2ad;
+    --cor1: #87E895;
+    --cor2: #2C9B3D;
+    --cor3: #1D6929;
+
+    --fonte-padrao : Arial, Verdana, Helvetica, sans-serif;
+    --fonte-titulo : 'Russo One', sans-serif;
+    --font-destaque : 'Fredoka One', cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    padding: 50px 100px;
+    background-color: white;
+}
+
+h1 {
+    font-family: var(--fonte-titulo);
+    color: var(--cor3);
+    display: inline;
+    font-size: 5em;
+    padding: 10px ;
+    
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.199);
+}
+
+nav {
+    text-align: right;
+    font-family: var(--font-destaque);
+}
+
+nav a {
+    color: var(--cor2);
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.3em;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.3s;
+}
+
+nav > a:hover {
+    background-color: var(--cor3);
+    color: white;
+}
+
+a.vmsl {
+    display: inline;
+}
+
+main {
+    background-color: var(--cor1);
+}
